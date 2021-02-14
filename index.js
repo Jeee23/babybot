@@ -43,7 +43,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
             + 'FN:RAMLAN ID\n' // GANTI NAMA LU
             + 'ORG:OWNER BOTZ;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=+6281515679916:+62 815-1567-9916\n' // GANTI NOMOR LU
+            + 'TEL;type=CELL;type=VOICE;waid=6281515679916:+62 815-1567-9916\n' // GANTI NOMOR LU
             + 'END:VCARD'
 // UDAH SEGITU KONSOL KEBAWAH BIARIN AJA
 const ngonsol = JSON.parse(fs.readFileSync('./settings/Ramlan.json'))
