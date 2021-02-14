@@ -1,5 +1,5 @@
 /*
-]=====> RAMLAN ID <=====[ ]=====> YT RAMLAN CHANNEL <=====[ ]=====> 085559240360 <=====[
+]=====> GAVIN BOT <=====[ ]=====> ANUGRAH <=====[ ]=====> 081515679916 <=====[
 */
 // ANAK ANJING PASTI YANG ATAS DI UBAH
 // NGOTAK KONSOL
@@ -41,9 +41,9 @@ const { removeBackgroundFromImageFile } = require('remove.bg')
 const { ind } = require('./language')
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:RAMLAN ID\n' // GANTI NAMA LU
+            + 'FN:GAViN BOT\n' // GANTI NAMA LU
             + 'ORG:OWNER BOTZ;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6285559240360:+62 855-5924-0360\n' // GANTI NOMOR LU
+            + 'TEL;type=CELL;type=VOICE;waid=081515679916:+62 815-1567-9916\n' // GANTI NOMOR LU
             + 'END:VCARD'
 // UDAH SEGITU KONSOL KEBAWAH BIARIN AJA
 const ngonsol = JSON.parse(fs.readFileSync('./settings/Ramlan.json'))
@@ -60,7 +60,7 @@ const {
     UserLimitz,
     CeerTod
 } = ngonsol
-// POWERED BY RAMLAN ID
+// REAPLOAD BY GAVIN BOT
 prefix = botPrefix
 blocked = []   
 limitawal = UserLimitz
@@ -2098,17 +2098,9 @@ tujuh = fs.readFileSync('./assets/sound7.mp3');
 baby.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break														
 /*
-]=====> TQTO <=====[
-> RAMLAN ID
-> REVOER ID
-> ARIS ID
-> NADIA CANS
-> NAZWA
-> VHTEAR
-> TOBZ
-> XTEAM
-> MHANKBARBAR
-> All Creator Bot WhatsApp
+]=====> GAVIN BOT<=====[
+
+
 */				
 			if (isGroup && !isCmd && isSimi && budy != undefined) {
 						console.log(budy)
